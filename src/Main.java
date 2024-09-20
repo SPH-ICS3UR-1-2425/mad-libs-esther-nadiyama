@@ -14,30 +14,32 @@ public class Main {
 		
 		Scanner in = new Scanner(System.in);
 		System.out.println("Give me a number: ");
-		String num1 = in.nextLine();
+		int num1 = in.nextInt();
 		System.out.println("Give me a sport: ");
+		//flush
+		in.nextLine();
 		String sport =in.nextLine();
 		System.out.print("Give me a place: ");
 		String place =in.nextLine();
 		System.out.print("Give me a name: ");
-		
+		String person1 =in.nextLine();
 		System.out.print("Give me another name: ");
-		String name =in.nextLine();
-		
-		
-		int score =in.nextInt();
-		
+		String person2=in.nextLine();
+		//flush
 		
 		
 		
-		String person2;
-		String person1;
-		String points;
-		System.out.println("One day"+person1+"  and "+person2+"  had so much fun while playing"+sport+" at "+place+" and scored "+num1+"+points+"!");
+		
+		
+		
+		
+
+	
+		System.out.println("One day"+person1+"  and "+person2+"  had so much fun while playing"+sport+" at "+place+" and scored "+num1+ "!");
 
 		
 		
 		
 	}
 
-}
+} 
