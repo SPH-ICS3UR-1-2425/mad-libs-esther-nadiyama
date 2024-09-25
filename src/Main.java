@@ -26,19 +26,14 @@ public class Main {
 		System.out.print("Give me another name: ");
 		String person2=in.nextLine();
 		//flush
+		System.out.print("Give me a decimal number");
+		int decnumber =in.nextInt();
 		
-		
-		
-		
-		
-		
-		
-
-	
-		System.out.println("One day"+person1+"  and "+person2+"  had so much fun while playing"+sport+" at "+place+" and scored "+num1+ "!");
+		System.out.println("One day"+person1+"  and "+person2+"  had so much fun while playing"+sport+" at "+place+" and scored "+num1+ " goals with "+decnumber+ "!");
 
 		
-		
+		System.out.print("Give me a place");
+		String place2 =in.nextLine();
 		
 	}
 
