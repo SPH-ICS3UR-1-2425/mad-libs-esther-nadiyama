@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 		/*
 		 * MadLibs Program
-		 * Author: 
+		 * Author: Esther
 		 * Class: ICS3U
 		 * Date: Sept. 16, 2024
 		 * Make a program that asks for 10 inputs
@@ -13,11 +13,28 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
-		System.out.println("What's your name?");
-		String name = in.nextLine();
-		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
+		System.out.println("Give me a number: ");
+		int num1 = in.nextInt();
+		System.out.println("Give me a sport: ");
+		//flush
+		in.nextLine();
+		String sport =in.nextLine();
+		System.out.print("Give me a place: ");
+		String place =in.nextLine();
+		System.out.print("Give me a name: ");
+		String person1 =in.nextLine();
+		System.out.print("Give me another name: ");
+		String person2=in.nextLine();
+		//flush
+		System.out.print("Give me a decimal number");
+		int decnumber =in.nextInt();
+		
+		System.out.println("One day"+person1+"  and "+person2+"  had so much fun while playing"+sport+" at "+place+" and scored "+num1+ " goals with "+decnumber+ "!");
 
+		
+		System.out.print("Give me a place");
+		String place2 =in.nextLine();
+		
 	}
 
-}
+} 
